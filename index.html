@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>JavaScript buổi 4</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    
+        <!-- Bài tập 1: Tính ngày tháng năm -->
+        <div class="row mt-4" id="bai5">
+            <div class="col-8 mx-auto">
+                <div class="card">
+                    <div class="card-header bg-danger text-white text-center title">Bài 5: Tính ngày tháng năm
+                    </div>
+                    <div class="card-body">
+                        <div class=" form-group row justify-content-between">
+                            <input class="form-control col-3 ml-3" id="day" placeholder="Nhập Ngày">
+                            <input class="form-control col-3" id="month" placeholder="Nhập Tháng">
+                            <input class="form-control col-3 mr-3" id="year" placeholder="Nhập Năm">
+                        </div>
+                        <div class="row justify-content-between">
+                            <button class="btn btn-danger ml-3" id="yesterday">Ngày Hôm Qua</button>
+                            <button class="btn btn-danger" id="tomorrow">Ngày Mai</button>
+                        </div>
+                        <div class="form-group mt-3">
+                            <input class="form-control" id="resultBai5" placeholder="Kết quả">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bài tập 2: Tính Ngày-->
+        <div class="row mt-4"  id="bai6">
+            <div class="col-8 mx-auto">
+                <div class="card">
+                    <div class="card-header bg-danger text-white text-center title">Bài 6: Ngày
+                    </div>
+                    <div class="card-body">
+                        <div class=" form-group row justify-content-left">
+                            <input class="form-control col-3 ml-3" id="month2" placeholder="Nhập Tháng">
+                            <input class="form-control col-3 ml-3" id="year2" placeholder="Nhập Năm">
+                        </div>
+                        <div class="row justify-content-between">
+                            <button class="btn btn-danger ml-3" id="calcDay">Tính ngày</button>
+                        </div>
+                        <div class="form-group mt-3">
+                            <input class="form-control" id="resultBai2" placeholder="Kết quả">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bài tập 3: Đọc số -->
+        <div class="row mt-4"  id="bai7">
+            <div class="col-8 mx-auto">
+                <div class="card">
+                    <div class="card-header bg-danger text-white text-center title">Bài 7: Đọc số</div>
+                    <div class="card-body">
+                        <div class=" form-group ">
+                            <input class="form-control" id="num" placeholder="Nhập số có 3 chữ số">
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-danger" id="countNum">Đếm</button>
+                        </div>
+                        <div class="form-group mt-3">
+                            <input class="form-control" id="resultBai3" placeholder="Kết quả">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bài tập 4: Tính diện tích, chu vi hình chữ nhật -->
+        <div class="row mt-4" id="bai8">
+            <div class="col-8 mx-auto">
+                <div class="card">
+                    <div class="card-header bg-danger text-white text-center title">Bài 8: Tính ngày tháng năm
+                    </div>
+                    <div class="card-body">
+                        <h4>Sinh viên 1</h4>
+                        <div class=" form-group row justify-content-between">
+                            <input class="form-control col-5 ml-3" id="name1" placeholder="Nhập tên">
+                            <input class="form-control col-3" id="toaDoX1" placeholder="Nhập tọa độ x">
+                            <input class="form-control col-3 mr-3" id="toaDoY1" placeholder="Nhập tọa độ y">
+                        </div>
+                        <h4 class="mt-4">Sinh viên 2</h4>
+                        <div class=" form-group row justify-content-between">
+                            <input class="form-control col-5 ml-3" id="name2" placeholder="Nhập tên">
+                            <input class="form-control col-3" id="toaDoX2" placeholder="Nhập tọa độ x">
+                            <input class="form-control col-3 mr-3" id="toaDoY2" placeholder="Nhập tọa độ y">
+                        </div>
+                        <h4 class="mt-4">Sinh viên 3</h4>
+                        <div class=" form-group row justify-content-between">
+                            <input class="form-control col-5 ml-3" id="name3" placeholder="Nhập tên">
+                            <input class="form-control col-3" id="toaDoX3" placeholder="Nhập tọa độ x">
+                            <input class="form-control col-3 mr-3" id="toaDoY3" placeholder="Nhập tọa độ y">
+                        </div>
+                        <h4 class="mt-4">Trường học</h4>
+                        <div class=" form-group row justify-content-left">
+                            <input class="form-control col-3 mx-3" id="toaDoTruongX" placeholder="Nhập tọa độ">
+                            <input class="form-control col-3 mr-3" id="toaDoTruongY" placeholder="Nhập tọa độ">
+                        </div>
+                        <div class="row justify-content-left">
+                            <button class="btn btn-danger mx-4" id="search">Tìm</button>
+                        
+                        </div>
+                        <div class="form-group mt-3">
+                            <input class="form-control" id="resultBai4" placeholder="Kết quả">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="./index.js"></script>
+</body>
+
+</html>
